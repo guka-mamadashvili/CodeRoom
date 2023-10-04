@@ -1,0 +1,14 @@
+<main class="flex flex-col justify-center items-center text-center py-8 space-y-8">
+    <div class="flex justify-center items-center text-center">
+        <ul class="flex space-x-6 max-sm:flex-col max-sm:space-x-0 max-sm:space-y-4">
+            <a href="software-dev/" class="hover:underline text-lg p-2">Software Development</a>
+            <a href="web-dev/" class="hover:underline text-lg p-2">Web Development</a>
+            <a href="linux-adm/" class="hover:underline text-lg p-2">Linux Administration</a>
+            <a href="mobile-dev/" class="text-lg p-2 bg-mtavari rounded-lg text-white">Mobile Development</a>
+        </ul>
+    </div>
+    <h1 class="text-3xl font-semibold">Our Courses</h1>
+    <div class="flex flex-wrap py-4 justify-center items-center text-center">
+        <app-course-card *ngFor="let course of filteredCourses" [course]="course"></app-course-card>
+    </div>
+</main>

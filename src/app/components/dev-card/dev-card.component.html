@@ -1,0 +1,10 @@
+<div class='grid grid-rows-2 w-[300px] p-6 bg-mtavari rounded-xl'>
+    <div class='border-b-[1px] border-white flex justify-center items-center p-6'>
+        <img [src]="developer.imgUrl" alt="developer" class="w-[130px] bg-white rounded-full">
+    </div>
+    <div class="flex flex-col justify-center items-center text-center p-6 text-white space-y-4">
+        <h1 class="text-xl font-bold">{{developer.fname}}</h1>
+        <p>{{developer.description}}</p>
+        <app-button title="Learn More"></app-button>
+    </div>
+</div>

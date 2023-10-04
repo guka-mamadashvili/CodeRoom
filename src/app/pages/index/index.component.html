@@ -1,0 +1,10 @@
+<div class="flex w-[100%] justify-center items-center py-12 space-x-[80px] border-b-[1px] border-black max-sm:flex-col max-sm:space-x-0 max-sm:py-12 max-sm:space-y-4">
+    <h1 class="title font-semibold text-7xl max-sm:text-5xl max-sm:text-center">START CODING <br> <span class="text-mtavari ">RIGHT NOW.</span></h1>
+    <img src="assets/page/avatar.svg" alt="avatar" class="w-[400px] max-sm:w-[300px]">
+</div>
+<div class="flex justify-center items-center text-center py-12">
+    <h1 class="text-2xl font-semibold">Our Top Developers</h1>
+</div>
+<div class="flex space-x-6 justify-center items-center text-center pb-12 max-sm:flex-col max-sm:justify-center max-sm:items-center max-sm:space-x-0 max-sm:space-y-6">
+    <app-dev-card *ngFor="let developer of developers" [developer]="developer"></app-dev-card>
+</div>
