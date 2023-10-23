@@ -10,6 +10,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { SignUpComponent } from './pages/auth/sign-up/sign-up.component';
 import { SignInComponent } from './pages/auth/sign-in/sign-in.component';
+import { DevelopersComponent } from './pages/developers/developers.component';
 
 const routes: Routes = [
   {path: "", component: IndexComponent},
@@ -22,6 +23,7 @@ const routes: Routes = [
   {path: "contact", component: ContactComponent},
   {path: "sign-up", component: SignUpComponent},
   {path: "sign-in", component: SignInComponent},
+  {path: "developers", component: DevelopersComponent},
 ];
 
 @NgModule({

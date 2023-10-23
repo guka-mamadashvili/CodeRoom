@@ -19,6 +19,8 @@ import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { SignUpComponent } from './pages/auth/sign-up/sign-up.component';
 import { SignInComponent } from './pages/auth/sign-in/sign-in.component';
+import { DevelopersComponent } from './pages/developers/developers.component';
+import { DevFullComponent } from './components/dev-full/dev-full.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +41,8 @@ import { SignInComponent } from './pages/auth/sign-in/sign-in.component';
     ContactComponent,
     SignUpComponent,
     SignInComponent,
+    DevelopersComponent,
+    DevFullComponent,
   ],
   imports: [
     BrowserModule,
